@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Glidejs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home" class="header">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="navigation container">
+          <div class="logo">
+            <h1>John <span>S</span>mith</h1>
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="logo">
+                <h1>John <span>S</span>mith</h1>
+              </div>
+
+              <div class="close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link scroll-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link scroll-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link scroll-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link scroll-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#teams" class="nav-link scroll-link">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <div class="hero">
+        <h3>Hello, my name is</h3>
+        <h1>John Smith</h1>
+        <h4>And I'm a <span id="type1"></span></h4>
+        <a href="#">Hire me</a>
+      </div>
+
+      <img src="./images/hero.png" alt="" />
+
+      <!-- icons -->
+      <div class="icons">
+        <span><i class="fab fa-facebook-f"></i></span>
+        <span><i class="fab fa-instagram"></i></span>
+        <span><i class="fab fa-twitter"></i></span>
+      </div>
+
+      <!-- color Control -->
+      <div class="control">
+        <div class="widget">
+          <i class="fas fa-cog"></i>
+        </div>
+
+        <div class="colors">
+          <span data-id="#0044ff"></span>
+          <span data-id="#ff4600"></span>
+          <span data-id="#ce00ff"></span>
+          <span data-id="#03ffc7"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <section class="section about" id="about">
+      <div class="title">
+        <h1>About me</h1>
+      </div>
+
+      <div class="about-center container">
+        <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
+          <img src="./images/profile1.jpg" alt="" />
+        </div>
+
+        <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
+          <h1>I'm John a <span id="type2"></span></h1>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis omnis delectus impedit placeat excepturi voluptas,
+            iusto, esse quidem ipsa, ex consectetur beatae dolorum consequuntur
+            rerum magni molestiae ad accusamus reprehenderit?
+          </p>
+
+          <a href="" class="btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section theme" id="services">
+      <div class="title">
+        <h1>My Services</h1>
+      </div>
+
+      <div class="services-center container">
+        <div class="service" data-aos="fade-right" data-aos-duration="2000">
+          <span><i class="fab fa-accusoft"></i></span>
+          <h2>Web Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            expedita obcaecati neque iste pariatur. Qui.
+          </p>
+        </div>
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
+          <span><i class="fas fa-chart-line"></i></span>
+          <h2>Advertising</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            expedita obcaecati neque iste pariatur. Qui.
+          </p>
+        </div>
+        <div class="service" data-aos="fade-left" data-aos-duration="2000">
+          <span><i class="fas fa-blender-phone"></i></span>
+          <h2>App Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            expedita obcaecati neque iste pariatur. Qui.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="title">
+        <h1>My Skills</h1>
+      </div>
+
+      <div class="skills-center container">
+        <div
+          class="skills-left"
+          data-aos="fade-down-right"
+          data-aos-duration="2000"
+        >
+          <div class="skills-box">
+            <h4>HTML5</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar html"></div>
+              <span>95%</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <h4>CSS</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar css"></div>
+              <span>85%</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <h4>JAVASCRIPT</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar javascript"></div>
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <h4>NODEJS</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar nodejs"></div>
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <h4>Mongodb</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar mongodb"></div>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
+          <h3>My creative skills and experience</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sit
+            vero voluptatibus sint. Sapiente, nesciunt libero? Delectus ut esse
+            ullam maiores aperiam deleniti excepturi soluta rerum. Ea quas at
+            error officia consequatur magni, unde porro earum? Dignissimos
+            minima, dicta in qui, reprehenderit aperiam esse aliquid,
+            repellendus quia eos repellat iste!
+          </p>
+
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teams -->
+    <section class="theme section" id="teams">
+      <div class="title">
+        <h1>My teams</h1>
+      </div>
+
+      <div class="teams-center container">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/profile1.jpg" alt="" />
+                  </div>
+                  <h3>Someone's name</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur, excepturi.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/profile2.jpg" alt="" />
+                  </div>
+                  <h3>Someone's name</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur, excepturi.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/profile2.jpg" alt="" />
+                  </div>
+                  <h3>Someone's name</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur, excepturi.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/profile3.jpg" alt="" />
+                  </div>
+                  <h3>Someone's name</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur, excepturi.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/profile4.jpg" alt="" />
+                  </div>
+                  <h3>Someone's name</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur, excepturi.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/profile5.jpg" alt="" />
+                  </div>
+                  <h3>Someone's name</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur, excepturi.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="title">
+        <h1>Contact me</h1>
+      </div>
+
+      <div class="contact-center container">
+        <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
+          <h2>Get in Touch</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea numquam
+            officia, quibusdam id voluptate cupiditate nam et vero quaerat
+            magnam. quibusdam id voluptate cupiditate nam et vero quaerat
+            magnam.
+          </p>
+          <div>
+            <span class="icon"><i class="fas fa-user"></i></span>
+            <span class="content">
+              <h3>Name</h3>
+              <span>John Smith</span>
+            </span>
+          </div>
+          <div>
+            <span class="icon"><i class="fas fa-envelope"></i></span>
+            <span class="content">
+              <h3>Email</h3>
+              <span>youtube@gmail.com</span>
+            </span>
+          </div>
+
+          <div>
+            <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="content">
+              <h3>Address</h3>
+              <span>United State</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
+          <form action="" class="form">
+            <h2>Message me</h2>
+            <div>
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <input type="text" placeholder="Subject" />
+            <textarea cols="10" rows="10" placeholder="Describe Project">
+            </textarea>
+            <a href="" class="btn">Send message</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Created By <span>Codevo</span> | &copy; 2021 All rights reserved.</p>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script src="index.js"></script>
+</html>
